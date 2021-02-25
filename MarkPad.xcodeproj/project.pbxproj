@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0C646D1FE1F534005C5A1D /* MTouch.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C646B1FE1F534005C5A1D /* MTouch.mm */; };
+		6D0C646E1FE1F534005C5A1D /* Services.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C646C1FE1F534005C5A1D /* Services.mm */; };
+		6D33484D20E161AA004D9BCC /* ccsocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D33484620E161A9004D9BCC /* ccsocket.cpp */; };
+		6D33484E20E161AA004D9BCC /* macdesktop.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D33484720E161A9004D9BCC /* macdesktop.mm */; };
+		6D4DF5D523CCED6E000EF24E /* configs in Resources */ = {isa = PBXBuildFile; fileRef = 6D4DF5D423CCED6E000EF24E /* configs */; };
+		6D4DF5D723CCF387000EF24E /* bgimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4DF5D623CCF387000EF24E /* bgimage.png */; };
+		6D7224E61FD8270E003D4B87 /* AWL.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D7224E01FD8270E003D4B87 /* AWL.mm */; };
+		6D7224E81FD8270E003D4B87 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D7224E31FD8270E003D4B87 /* main.mm */; };
+		6D7224E91FD8270E003D4B87 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D7224E41FD8270E003D4B87 /* AppDelegate.mm */; };
+		6D7224EA1FD8270E003D4B87 /* OverlayImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D7224E51FD8270E003D4B87 /* OverlayImpl.mm */; };
+		6D78E6A21FC5BED800438FF0 /* Overlay.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D78E6A01FC5BED700438FF0 /* Overlay.mm */; };
+		6D9152B01FE61B9A0014E040 /* Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D9152AF1FE61B9A0014E040 /* Strings.cpp */; };
+		6D9AD00E1A4D8D3B00574E63 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9AD00D1A4D8D3B00574E63 /* Cocoa.framework */; };
+		6D9AD0101A4D8D4300574E63 /* MultitouchSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9AD00F1A4D8D4200574E63 /* MultitouchSupport.framework */; };
+		6DA673201FBE8311004EB2C3 /* GUI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6731F1FBE8311004EB2C3 /* GUI.mm */; };
+		6DB3588D1FDCA7C6001145E9 /* Settings.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3588C1FDCA7C6001145E9 /* Settings.mm */; };
+		6DB689201FDB2C22001BB5E7 /* Pad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DB689131FDB2C21001BB5E7 /* Pad.cpp */; };
+		6DB689221FDB2C22001BB5E7 /* Conf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DB689161FDB2C22001BB5E7 /* Conf.cpp */; };
+		6DB689231FDB2C22001BB5E7 /* DataLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DB689171FDB2C22001BB5E7 /* DataLogger.cpp */; };
+		6DB689241FDB2C22001BB5E7 /* Actions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DB689181FDB2C22001BB5E7 /* Actions.cpp */; };
+		6DB689251FDB2C22001BB5E7 /* Shortcut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6891C1FDB2C22001BB5E7 /* Shortcut.cpp */; };
+		6DB689261FDB2C22001BB5E7 /* MarkPad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6891F1FDB2C22001BB5E7 /* MarkPad.cpp */; };
+		6DB6892B1FDB3F1B001BB5E7 /* Theme.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6892A1FDB3F1B001BB5E7 /* Theme.mm */; };
+		6DB689311FDB7242001BB5E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6892D1FDB7242001BB5E7 /* InfoPlist.strings */; };
+		6DB689321FDB7242001BB5E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6892F1FDB7242001BB5E7 /* MainMenu.xib */; };
+		6DB689381FDB94A5001BB5E7 /* CurrentAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DB689361FDB94A5001BB5E7 /* CurrentAction.cpp */; };
+		6DC325A51FD8923000DADD5B /* Guides.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DC325A21FD8923000DADD5B /* Guides.json */; };
+		6DC325A61FD8923000DADD5B /* Shortcuts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DC325A31FD8923000DADD5B /* Shortcuts.json */; };
+		6DC325A91FD8928A00DADD5B /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6DC325A71FD8928A00DADD5B /* images */; };
+		6DC325AA1FD8928A00DADD5B /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 6DC325A81FD8928A00DADD5B /* scripts */; };
+		6DC477961FB9DF5E00FA467B /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC477951FB9DF5E00FA467B /* Icon.xcassets */; };
+		6DDF118C1FDE362000EFAC11 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDF118B1FDE361600EFAC11 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D045C3B1A4D8B3000EAAF1F /* MarkPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0681851FBE140C004D0BEC /* AWL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AWL.h; path = gui/AWL.h; sourceTree = "<group>"; };
+		6D0681871FBE141E004D0BEC /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = gui/Settings.h; sourceTree = "<group>"; };
+		6D0681881FBE1459004D0BEC /* Editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Editor.h; path = gui/Editor.h; sourceTree = "<group>"; };
+		6D0C646B1FE1F534005C5A1D /* MTouch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MTouch.mm; path = mac/MTouch.mm; sourceTree = "<group>"; };
+		6D0C646C1FE1F534005C5A1D /* Services.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Services.mm; path = mac/Services.mm; sourceTree = "<group>"; };
+		6D0C64701FE20181005C5A1D /* OverlayImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayImpl.h; path = gui/OverlayImpl.h; sourceTree = "<group>"; };
+		6D33484620E161A9004D9BCC /* ccsocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccsocket.cpp; sourceTree = "<group>"; };
+		6D33484720E161A9004D9BCC /* macdesktop.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = macdesktop.mm; sourceTree = "<group>"; };
+		6D33484820E161A9004D9BCC /* ccstringset.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ccstringset.hpp; sourceTree = "<group>"; };
+		6D33484920E161A9004D9BCC /* ccpath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ccpath.hpp; sourceTree = "<group>"; };
+		6D33484A20E161A9004D9BCC /* ccsocket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ccsocket.hpp; sourceTree = "<group>"; };
+		6D33484B20E161A9004D9BCC /* macdesktop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = macdesktop.hpp; sourceTree = "<group>"; };
+		6D33484C20E161A9004D9BCC /* ccstring.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ccstring.hpp; sourceTree = "<group>"; };
+		6D4DF5D423CCED6E000EF24E /* configs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = configs; path = resources/configs; sourceTree = "<group>"; };
+		6D4DF5D623CCF387000EF24E /* bgimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgimage.png; path = resources/bgimage.png; sourceTree = "<group>"; };
+		6D5BB0CE1FDDE661009B2BFB /* Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Services.h; path = core/Services.h; sourceTree = "<group>"; };
+		6D7224DF1FD8270D003D4B87 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cocoa/AppDelegate.h; sourceTree = "<group>"; };
+		6D7224E01FD8270E003D4B87 /* AWL.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AWL.mm; path = cocoa/AWL.mm; sourceTree = "<group>"; };
+		6D7224E11FD8270E003D4B87 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cocoa/Info.plist; sourceTree = "<group>"; };
+		6D7224E31FD8270E003D4B87 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = cocoa/main.mm; sourceTree = "<group>"; };
+		6D7224E41FD8270E003D4B87 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = cocoa/AppDelegate.mm; sourceTree = "<group>"; };
+		6D7224E51FD8270E003D4B87 /* OverlayImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OverlayImpl.mm; path = cocoa/OverlayImpl.mm; sourceTree = "<group>"; };
+		6D78E6A01FC5BED700438FF0 /* Overlay.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Overlay.mm; path = gui/Overlay.mm; sourceTree = "<group>"; };
+		6D78E6A11FC5BED800438FF0 /* Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Overlay.h; path = gui/Overlay.h; sourceTree = "<group>"; };
+		6D9152AE1FE61B9A0014E040 /* Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Strings.h; path = core/Strings.h; sourceTree = "<group>"; };
+		6D9152AF1FE61B9A0014E040 /* Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Strings.cpp; path = core/Strings.cpp; sourceTree = "<group>"; };
+		6D9AD00D1A4D8D3B00574E63 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6D9AD00F1A4D8D4200574E63 /* MultitouchSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultitouchSupport.framework; path = System/Library/PrivateFrameworks/MultitouchSupport.framework; sourceTree = SDKROOT; };
+		6DA6731E1FBE392A004EB2C3 /* GUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GUI.h; path = gui/GUI.h; sourceTree = "<group>"; };
+		6DA6731F1FBE8311004EB2C3 /* GUI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GUI.mm; path = gui/GUI.mm; sourceTree = "<group>"; };
+		6DB3588C1FDCA7C6001145E9 /* Settings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Settings.mm; path = gui/Settings.mm; sourceTree = "<group>"; };
+		6DB689121FDB2C21001BB5E7 /* Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Actions.h; path = core/Actions.h; sourceTree = "<group>"; };
+		6DB689131FDB2C21001BB5E7 /* Pad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pad.cpp; path = core/Pad.cpp; sourceTree = "<group>"; };
+		6DB689151FDB2C22001BB5E7 /* Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pad.h; path = core/Pad.h; sourceTree = "<group>"; };
+		6DB689161FDB2C22001BB5E7 /* Conf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Conf.cpp; path = core/Conf.cpp; sourceTree = "<group>"; };
+		6DB689171FDB2C22001BB5E7 /* DataLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataLogger.cpp; path = core/DataLogger.cpp; sourceTree = "<group>"; };
+		6DB689181FDB2C22001BB5E7 /* Actions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Actions.cpp; path = core/Actions.cpp; sourceTree = "<group>"; };
+		6DB689191FDB2C22001BB5E7 /* MTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTouch.h; path = core/MTouch.h; sourceTree = "<group>"; };
+		6DB6891A1FDB2C22001BB5E7 /* MarkPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarkPad.h; path = core/MarkPad.h; sourceTree = "<group>"; };
+		6DB6891B1FDB2C22001BB5E7 /* DataLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataLogger.h; path = core/DataLogger.h; sourceTree = "<group>"; };
+		6DB6891C1FDB2C22001BB5E7 /* Shortcut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Shortcut.cpp; path = core/Shortcut.cpp; sourceTree = "<group>"; };
+		6DB6891D1FDB2C22001BB5E7 /* Shortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shortcut.h; path = core/Shortcut.h; sourceTree = "<group>"; };
+		6DB6891E1FDB2C22001BB5E7 /* Conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conf.h; path = core/Conf.h; sourceTree = "<group>"; };
+		6DB6891F1FDB2C22001BB5E7 /* MarkPad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MarkPad.cpp; path = core/MarkPad.cpp; sourceTree = "<group>"; };
+		6DB689291FDB3F1B001BB5E7 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Theme.h; path = gui/Theme.h; sourceTree = "<group>"; };
+		6DB6892A1FDB3F1B001BB5E7 /* Theme.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Theme.mm; path = gui/Theme.mm; sourceTree = "<group>"; };
+		6DB6892E1FDB7242001BB5E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = cocoa/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DB689301FDB7242001BB5E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = cocoa/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6DB689361FDB94A5001BB5E7 /* CurrentAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CurrentAction.cpp; path = core/CurrentAction.cpp; sourceTree = "<group>"; };
+		6DB689371FDB94A5001BB5E7 /* CurrentAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrentAction.h; path = core/CurrentAction.h; sourceTree = "<group>"; };
+		6DC325A21FD8923000DADD5B /* Guides.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Guides.json; path = resources/Guides.json; sourceTree = "<group>"; };
+		6DC325A31FD8923000DADD5B /* Shortcuts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Shortcuts.json; path = resources/Shortcuts.json; sourceTree = "<group>"; };
+		6DC325A71FD8928A00DADD5B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = resources/images; sourceTree = "<group>"; };
+		6DC325A81FD8928A00DADD5B /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = resources/scripts; sourceTree = "<group>"; };
+		6DC325AB1FD892DB00DADD5B /* MarkPad.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = MarkPad.entitlements; path = resources/MarkPad.entitlements; sourceTree = "<group>"; };
+		6DC477951FB9DF5E00FA467B /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
+		6DC7031D211B5FBB004B34E2 /* unordered_map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = unordered_map.hpp; sourceTree = "<group>"; };
+		6DC7031F211B5FBB004B34E2 /* array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
+		6DC70320211B5FBB004B34E2 /* vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vector.hpp; sourceTree = "<group>"; };
+		6DC70321211B5FBB004B34E2 /* map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = map.hpp; sourceTree = "<group>"; };
+		6DC70322211B5FBB004B34E2 /* list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = list.hpp; sourceTree = "<group>"; };
+		6DC70323211B5FBB004B34E2 /* forward_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = forward_list.hpp; sourceTree = "<group>"; };
+		6DC70324211B5FBB004B34E2 /* jsonimpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsonimpl.hpp; sourceTree = "<group>"; };
+		6DC70325211B5FBB004B34E2 /* set.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = set.hpp; sourceTree = "<group>"; };
+		6DC70326211B5FBB004B34E2 /* jsonerror.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsonerror.hpp; sourceTree = "<group>"; };
+		6DC70327211B5FBB004B34E2 /* deque.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = deque.hpp; sourceTree = "<group>"; };
+		6DC70328211B5FBB004B34E2 /* jsonclasses.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsonclasses.hpp; sourceTree = "<group>"; };
+		6DC70329211B5FBB004B34E2 /* jsonserial.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsonserial.hpp; sourceTree = "<group>"; };
+		6DC7032A211B5FBB004B34E2 /* unordered_set.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = unordered_set.hpp; sourceTree = "<group>"; };
+		6DC7032B211B5FBB004B34E2 /* jsondefs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsondefs.hpp; sourceTree = "<group>"; };
+		6DDF118B1FDE361600EFAC11 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D045C381A4D8B3000EAAF1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9AD0101A4D8D4300574E63 /* MultitouchSupport.framework in Frameworks */,
+				6DDF118C1FDE362000EFAC11 /* Carbon.framework in Frameworks */,
+				6D9AD00E1A4D8D3B00574E63 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D045C321A4D8B3000EAAF1F = {
+			isa = PBXGroup;
+			children = (
+				6D045C3D1A4D8B3000EAAF1F /* core */,
+				6D0681741FBDF3BA004D0BEC /* gui */,
+				6D0C646A1FE1F4AE005C5A1D /* mac */,
+				6D7224DE1FD826F1003D4B87 /* cocoa */,
+				6DC7031C211B5FBB004B34E2 /* jsonserial */,
+				6D33484520E161A9004D9BCC /* ccuty */,
+				6DDD8D0E1BE9606B006FA93D /* Resources */,
+				6D9AD00C1A4D8D2100574E63 /* Frameworks */,
+				6D045C3C1A4D8B3000EAAF1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D045C3C1A4D8B3000EAAF1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D045C3B1A4D8B3000EAAF1F /* MarkPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D045C3D1A4D8B3000EAAF1F /* core */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6891E1FDB2C22001BB5E7 /* Conf.h */,
+				6DB689161FDB2C22001BB5E7 /* Conf.cpp */,
+				6D9152AE1FE61B9A0014E040 /* Strings.h */,
+				6D9152AF1FE61B9A0014E040 /* Strings.cpp */,
+				6DB6891A1FDB2C22001BB5E7 /* MarkPad.h */,
+				6DB6891F1FDB2C22001BB5E7 /* MarkPad.cpp */,
+				6DB689151FDB2C22001BB5E7 /* Pad.h */,
+				6DB689131FDB2C21001BB5E7 /* Pad.cpp */,
+				6DB6891D1FDB2C22001BB5E7 /* Shortcut.h */,
+				6DB6891C1FDB2C22001BB5E7 /* Shortcut.cpp */,
+				6DB689121FDB2C21001BB5E7 /* Actions.h */,
+				6DB689181FDB2C22001BB5E7 /* Actions.cpp */,
+				6DB689371FDB94A5001BB5E7 /* CurrentAction.h */,
+				6DB689361FDB94A5001BB5E7 /* CurrentAction.cpp */,
+				6DB6891B1FDB2C22001BB5E7 /* DataLogger.h */,
+				6DB689171FDB2C22001BB5E7 /* DataLogger.cpp */,
+				6DB689191FDB2C22001BB5E7 /* MTouch.h */,
+				6D5BB0CE1FDDE661009B2BFB /* Services.h */,
+			);
+			name = core;
+			sourceTree = SOURCE_ROOT;
+		};
+		6D0681741FBDF3BA004D0BEC /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				6D0681851FBE140C004D0BEC /* AWL.h */,
+				6DA6731E1FBE392A004EB2C3 /* GUI.h */,
+				6DA6731F1FBE8311004EB2C3 /* GUI.mm */,
+				6D0681881FBE1459004D0BEC /* Editor.h */,
+				6D0681871FBE141E004D0BEC /* Settings.h */,
+				6DB3588C1FDCA7C6001145E9 /* Settings.mm */,
+				6D0C64701FE20181005C5A1D /* OverlayImpl.h */,
+				6D78E6A11FC5BED800438FF0 /* Overlay.h */,
+				6D78E6A01FC5BED700438FF0 /* Overlay.mm */,
+				6DB689291FDB3F1B001BB5E7 /* Theme.h */,
+				6DB6892A1FDB3F1B001BB5E7 /* Theme.mm */,
+			);
+			name = gui;
+			sourceTree = "<group>";
+		};
+		6D0C646A1FE1F4AE005C5A1D /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C646B1FE1F534005C5A1D /* MTouch.mm */,
+				6D0C646C1FE1F534005C5A1D /* Services.mm */,
+			);
+			name = mac;
+			sourceTree = "<group>";
+		};
+		6D33484520E161A9004D9BCC /* ccuty */ = {
+			isa = PBXGroup;
+			children = (
+				6D33484620E161A9004D9BCC /* ccsocket.cpp */,
+				6D33484B20E161A9004D9BCC /* macdesktop.hpp */,
+				6D33484720E161A9004D9BCC /* macdesktop.mm */,
+				6D33484820E161A9004D9BCC /* ccstringset.hpp */,
+				6D33484920E161A9004D9BCC /* ccpath.hpp */,
+				6D33484A20E161A9004D9BCC /* ccsocket.hpp */,
+				6D33484C20E161A9004D9BCC /* ccstring.hpp */,
+			);
+			path = ccuty;
+			sourceTree = "<group>";
+		};
+		6D7224DE1FD826F1003D4B87 /* cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				6D7224E11FD8270E003D4B87 /* Info.plist */,
+				6DB6892C1FDB71F0001BB5E7 /* en.lproj */,
+				6D7224E31FD8270E003D4B87 /* main.mm */,
+				6D7224E01FD8270E003D4B87 /* AWL.mm */,
+				6D7224E51FD8270E003D4B87 /* OverlayImpl.mm */,
+				6D7224DF1FD8270D003D4B87 /* AppDelegate.h */,
+				6D7224E41FD8270E003D4B87 /* AppDelegate.mm */,
+			);
+			name = cocoa;
+			sourceTree = "<group>";
+		};
+		6D9AD00C1A4D8D2100574E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DDF118B1FDE361600EFAC11 /* Carbon.framework */,
+				6D9AD00D1A4D8D3B00574E63 /* Cocoa.framework */,
+				6D9AD00F1A4D8D4200574E63 /* MultitouchSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DB6892C1FDB71F0001BB5E7 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6892F1FDB7242001BB5E7 /* MainMenu.xib */,
+				6DB6892D1FDB7242001BB5E7 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+		6DC7031C211B5FBB004B34E2 /* jsonserial */ = {
+			isa = PBXGroup;
+			children = (
+				6DC7031D211B5FBB004B34E2 /* unordered_map.hpp */,
+				6DC7031F211B5FBB004B34E2 /* array.hpp */,
+				6DC70320211B5FBB004B34E2 /* vector.hpp */,
+				6DC70321211B5FBB004B34E2 /* map.hpp */,
+				6DC70322211B5FBB004B34E2 /* list.hpp */,
+				6DC70323211B5FBB004B34E2 /* forward_list.hpp */,
+				6DC70324211B5FBB004B34E2 /* jsonimpl.hpp */,
+				6DC70325211B5FBB004B34E2 /* set.hpp */,
+				6DC70326211B5FBB004B34E2 /* jsonerror.hpp */,
+				6DC70327211B5FBB004B34E2 /* deque.hpp */,
+				6DC70328211B5FBB004B34E2 /* jsonclasses.hpp */,
+				6DC70329211B5FBB004B34E2 /* jsonserial.hpp */,
+				6DC7032A211B5FBB004B34E2 /* unordered_set.hpp */,
+				6DC7032B211B5FBB004B34E2 /* jsondefs.hpp */,
+			);
+			path = jsonserial;
+			sourceTree = "<group>";
+		};
+		6DDD8D0E1BE9606B006FA93D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DC325A21FD8923000DADD5B /* Guides.json */,
+				6DC325A31FD8923000DADD5B /* Shortcuts.json */,
+				6D4DF5D623CCF387000EF24E /* bgimage.png */,
+				6DC325AB1FD892DB00DADD5B /* MarkPad.entitlements */,
+				6D4DF5D423CCED6E000EF24E /* configs */,
+				6DC477951FB9DF5E00FA467B /* Icon.xcassets */,
+				6DC325A71FD8928A00DADD5B /* images */,
+				6DC325A81FD8928A00DADD5B /* scripts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D045C3A1A4D8B3000EAAF1F /* MarkPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D045C5B1A4D8B3000EAAF1F /* Build configuration list for PBXNativeTarget "MarkPad" */;
+			buildPhases = (
+				6D045C371A4D8B3000EAAF1F /* Sources */,
+				6D045C381A4D8B3000EAAF1F /* Frameworks */,
+				6D045C391A4D8B3000EAAF1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkPad;
+			productName = MagikTrackpad;
+			productReference = 6D045C3B1A4D8B3000EAAF1F /* MarkPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D045C331A4D8B3000EAAF1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					Shortcuts,
+				);
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = zzz;
+				TargetAttributes = {
+					6D045C3A1A4D8B3000EAAF1F = {
+						CreatedOnToolsVersion = 6.1.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6D045C361A4D8B3000EAAF1F /* Build configuration list for PBXProject "MarkPad" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D045C321A4D8B3000EAAF1F;
+			productRefGroup = 6D045C3C1A4D8B3000EAAF1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D045C3A1A4D8B3000EAAF1F /* MarkPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D045C391A4D8B3000EAAF1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4DF5D723CCF387000EF24E /* bgimage.png in Resources */,
+				6D4DF5D523CCED6E000EF24E /* configs in Resources */,
+				6DC325A61FD8923000DADD5B /* Shortcuts.json in Resources */,
+				6DB689311FDB7242001BB5E7 /* InfoPlist.strings in Resources */,
+				6DC477961FB9DF5E00FA467B /* Icon.xcassets in Resources */,
+				6DC325AA1FD8928A00DADD5B /* scripts in Resources */,
+				6DC325A91FD8928A00DADD5B /* images in Resources */,
+				6DC325A51FD8923000DADD5B /* Guides.json in Resources */,
+				6DB689321FDB7242001BB5E7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D045C371A4D8B3000EAAF1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB689201FDB2C22001BB5E7 /* Pad.cpp in Sources */,
+				6D7224EA1FD8270E003D4B87 /* OverlayImpl.mm in Sources */,
+				6D9152B01FE61B9A0014E040 /* Strings.cpp in Sources */,
+				6D78E6A21FC5BED800438FF0 /* Overlay.mm in Sources */,
+				6D33484D20E161AA004D9BCC /* ccsocket.cpp in Sources */,
+				6D0C646E1FE1F534005C5A1D /* Services.mm in Sources */,
+				6DA673201FBE8311004EB2C3 /* GUI.mm in Sources */,
+				6D7224E61FD8270E003D4B87 /* AWL.mm in Sources */,
+				6D33484E20E161AA004D9BCC /* macdesktop.mm in Sources */,
+				6DB689251FDB2C22001BB5E7 /* Shortcut.cpp in Sources */,
+				6DB689241FDB2C22001BB5E7 /* Actions.cpp in Sources */,
+				6D7224E91FD8270E003D4B87 /* AppDelegate.mm in Sources */,
+				6DB689221FDB2C22001BB5E7 /* Conf.cpp in Sources */,
+				6DB689261FDB2C22001BB5E7 /* MarkPad.cpp in Sources */,
+				6DB6892B1FDB3F1B001BB5E7 /* Theme.mm in Sources */,
+				6DB3588D1FDCA7C6001145E9 /* Settings.mm in Sources */,
+				6DB689381FDB94A5001BB5E7 /* CurrentAction.cpp in Sources */,
+				6D0C646D1FE1F534005C5A1D /* MTouch.mm in Sources */,
+				6D7224E81FD8270E003D4B87 /* main.mm in Sources */,
+				6DB689231FDB2C22001BB5E7 /* DataLogger.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DB6892D1FDB7242001BB5E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB6892E1FDB7242001BB5E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6DB6892F1FDB7242001BB5E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB689301FDB7242001BB5E7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D045C591A4D8B3000EAAF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_ASM_KEYWORD = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "ccuty/**";
+			};
+			name = Debug;
+		};
+		6D045C5A1A4D8B3000EAAF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_ENABLE_ASM_KEYWORD = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "ccuty/**";
+			};
+			name = Release;
+		};
+		6D045C5C1A4D8B3000EAAF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				CURRENT_PROJECT_VERSION = 5.6;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				HEADER_SEARCH_PATHS = .;
+				INFOPLIST_FILE = cocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 5.6;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.elc.MarkPad;
+				PRODUCT_NAME = MarkPad;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "cocoa/**";
+				USE_HEADERMAP = YES;
+			};
+			name = Debug;
+		};
+		6D045C5D1A4D8B3000EAAF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				CURRENT_PROJECT_VERSION = 5.6;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				"GCC_OPTIMIZATION_LEVEL[arch=*]" = s;
+				HEADER_SEARCH_PATHS = .;
+				INFOPLIST_FILE = cocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 5.6;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.elc.MarkPad;
+				PRODUCT_NAME = MarkPad;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "cocoa/**";
+				USE_HEADERMAP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D045C361A4D8B3000EAAF1F /* Build configuration list for PBXProject "MarkPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D045C591A4D8B3000EAAF1F /* Debug */,
+				6D045C5A1A4D8B3000EAAF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D045C5B1A4D8B3000EAAF1F /* Build configuration list for PBXNativeTarget "MarkPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D045C5C1A4D8B3000EAAF1F /* Debug */,
+				6D045C5D1A4D8B3000EAAF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D045C331A4D8B3000EAAF1F /* Project object */;
+}

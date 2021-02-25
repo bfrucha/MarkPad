@@ -1,0 +1,291 @@
+// MarkPad Configuration File
+// Must be located in ~/Library/MarkPad/
+
+{
+  "fileVersion": "5.2",
+  "developerMode": true,
+  "allowAccessibility": true,
+  "logData": true,
+  "showHotkey": "fn+ctrl",
+  "editHotkey": "shift",
+  "theme": "dark",
+  "mediaHost": "",
+  "activeBorders": {
+    "left": 0.0400,
+    "right": 0.0400,
+    "top": 0.0400,
+    "bottom": 0.0400
+  },
+  "menuDelay": 0.6000,
+  "minMovement": 0.0000,
+  "minTouchSize": 4.0000,
+  "maxTouchSize": 12.0000,
+  "showBgImage": true,
+  "bgImage": "bgimage.png",
+  "showFeedback": true,
+  "feedback": {
+    "delay": 0.6000,
+    "font": "Helvetica-Bold, 48",
+    "color": "0.000000,0.589801,1.000000,0.563276"
+  },
+  "showFingers": false,
+  "showGrid": false,
+  "mainMenu": {
+    "shortcuts": [
+      {
+        "name": "Applications",
+        "area": "0.9082 0.0000 0.0918 0.1006",
+        "nameArea": "0.0039 0.0287",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Calendar",
+              "action": "!openhideapp /Applications/Calendar.app",
+              "area": "0.9268 0.4387 0.0723 0.4487",
+              "nameArea": "0.0073 0.2111",
+
+            },
+            {
+              "name": "Mail",
+              "action": "!openhideapp /Applications/Mail.app",
+              "area": "0.3650 0.1157 0.2757 0.5060",
+              "nameArea": "0.1349 0.2468",
+
+            },
+            {
+              "name": "Safari",
+              "action": "!openhideapp /Applications/Safari.app",
+              "area": "0.6490 0.4387 0.2656 0.4487",
+              "nameArea": "0.1252 0.2067",
+
+            },
+            {
+              "name": "Word",
+              "action": "!openhideapp Microsoft Word",
+              "area": "0.3656 0.0000 0.2737 0.0976",
+              "nameArea": "0.1254 0.0368",
+
+            },
+            {
+              "name": "Pages",
+              "action": "!openhideapp /Applications/Pages.app",
+              "area": "0.6496 0.1465 0.2301 0.2724",
+              "nameArea": "0.1234 0.0992",
+
+            },
+            {
+              "name": "Keynote",
+              "action": "!openhideapp /Applications/Keynote.app",
+              "area": "0.9277 0.1548 0.0723 0.2644",
+              "nameArea": "0.0012 0.0959",
+
+            },
+            {
+              "name": "Excel",
+              "area": "0.6496 0.0000 0.2223 0.0983",
+              "nameArea": "0.0910 0.0368",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Médias sociaux",
+        "area": "0.6462 0.0000 0.2527 0.0800",
+        "nameArea": "0.0718 0.0270",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Instagram",
+              "action": "!openfile http://www.instagram.com/",
+              "area": "0.9272 0.0000 0.0728 0.0984",
+              "nameArea": "0.0153 0.0395",
+
+            },
+            {
+              "name": "Messenger",
+              "action": "!openfile http://www.messenger.com",
+              "area": "0.3608 0.1331 0.2494 0.2617",
+              "nameArea": "0.1493 0.0692",
+
+            },
+            {
+              "name": "LinkedIn",
+              "action": "!openfile https://www.linkedin.com/uas/login",
+              "area": "0.3616 0.4108 0.2783 0.4776",
+              "nameArea": "0.1339 0.3076",
+
+            },
+            {
+              "name": "Twitter",
+              "action": "!openfile http://www.twitter.com/",
+              "area": "0.6512 0.2893 0.2656 0.5980",
+              "nameArea": "0.1024 0.2382",
+
+            },
+            {
+              "name": "Facebook",
+              "action": "!openfile http://www.facebook.com/",
+              "area": "0.3967 0.0000 0.2426 0.0893",
+              "nameArea": "0.1005 0.0357",
+
+            },
+            {
+              "name": "WhatsApp",
+              "action": "!openfile http://www.whatsapp.com/",
+              "area": "0.9277 0.1189 0.0723 0.7622",
+              "nameArea": "0.0140 0.3761",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Fichiers",
+        "area": "0.9285 0.4067 0.0715 0.4621",
+        "nameArea": "0.0054 0.2182",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Atelier CHUGPN",
+              "action": "!openfile /Users/stephane/Desktop/Atelier CHUGPN",
+              "area": "0.6236 0.0000 0.2769 0.3254",
+              "nameArea": "0.1136 0.0957",
+
+            },
+            {
+              "name": "H2020 - IC38",
+              "action": "!openfile /Users/stephane/Desktop/H2020 - IC38",
+              "area": "0.9327 0.8929 0.0673 0.1071",
+              "nameArea": "-0.0102 0.0553",
+
+            },
+            {
+              "name": "RECHERCHE ",
+              "action": "!openfile /Users/stephane/Documents/RECHERCHE",
+              "area": "0.5729 0.3508 0.2471 0.3075",
+              "nameArea": "0.1534 0.1080",
+
+            },
+            {
+              "name": "2020-ANR C5",
+              "action": "!openfile /Users/stephane/Documents/RECHERCHE /Soumissions de projets/2020-ANR C5",
+              "area": "0.5965 0.6827 0.3005 0.3193",
+              "nameArea": "0.1388 0.1297",
+
+            },
+            {
+              "name": "Cours",
+              "action": "!openfile /Users/stephane/Documents/COURS/Cours TPT",
+              "area": "0.9264 0.0030 0.0711 0.3263",
+              "nameArea": "0.0138 0.1455",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Edition",
+        "area": "0.9285 0.1137 0.0715 0.2776",
+        "nameArea": "0.0093 0.1360",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Volume +",
+              "action": "!volume +5",
+              "area": "0.5952 0.4094 0.3126 0.4626",
+              "nameArea": "0.1242 0.2334",
+
+            },
+            {
+              "name": "Volume - ",
+              "action": "!volume -5",
+              "area": "0.5685 0.1066 0.2605 0.2785",
+              "nameArea": "0.1082 0.1378",
+
+            },
+            {
+              "name": "All App Windows",
+              "action": "!appwins ",
+              "area": "0.6406 0.0000 0.2811 0.0863",
+              "nameArea": "0.0898 0.0265",
+
+            },
+            {
+              "name": "Next Window",
+              "action": "!nextwin ",
+              "area": "0.9290 0.0000 0.0710 0.0906",
+              "nameArea": "-0.0116 0.0363",
+
+            },
+            {
+              "name": "Coller ss style",
+              "area": "0.9328 0.4089 0.0662 0.4636",
+              "nameArea": "-0.0145 0.2259",
+
+            },
+            {
+              "name": "Full Screen",
+              "action": "!fullscreen ",
+              "area": "0.9329 0.8903 0.0671 0.1097",
+              "nameArea": "-0.0023 0.0413",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Web",
+        "area": "0.3693 0.0000 0.2701 0.0814",
+        "nameArea": "0.1174 0.0320",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Netflix",
+              "action": "!openurl www.netflix.com",
+              "area": "0.0020 0.1331 0.3489 0.2921",
+              "nameArea": "0.1922 0.1204",
+
+            },
+            {
+              "name": "Le monde",
+              "action": "!openurl www.lemonde.fr",
+              "area": "0.0825 0.0000 0.2519 0.0956",
+              "nameArea": "0.0988 0.0347",
+
+            },
+            {
+              "name": "METEO ",
+              "action": "!openurl http://www.meteofrance.com/accueil",
+              "area": "0.3700 0.3115 0.2641 0.6786",
+              "nameArea": "0.1091 0.1019",
+
+            },
+            {
+              "name": "Liberation",
+              "action": "!openurl https://www.liberation.fr/",
+              "area": "0.6423 0.4240 0.2790 0.4524",
+              "nameArea": "0.0826 0.1897",
+
+            },
+            {
+              "name": "RATP",
+              "action": "!openurl www.ratp.fr",
+              "area": "0.6707 0.0000 0.2496 0.0963",
+              "nameArea": "0.1046 0.0421",
+
+            },
+            {
+              "name": "Le Parisien",
+              "action": "!openurl http://www.leparisien.fr/",
+              "area": "0.6710 0.1295 0.3287 0.2780",
+              "nameArea": "0.0918 0.1219",
+
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+

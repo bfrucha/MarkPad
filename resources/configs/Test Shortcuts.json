@@ -1,0 +1,228 @@
+// MarkPad Configuration File
+// Must be located in ~/Library/MarkPad/
+
+{
+  "fileVersion": "5.0",
+  "developerMode": true,
+  "allowAccessibility": true,
+  "logData": true,
+  "showHotkey": "fn+ctrl",
+  "editHotkey": "shift",
+  "theme": "dark",
+  "mediaHost": "",
+  "activeBorders": {
+    "left": 0.0400,
+    "right": 0.0400,
+    "top": 0.0400,
+    "bottom": 0.0400
+  },
+  "menuDelay": 0.6000,
+  "minMovement": 0.0000,
+  "minTouchSize": 4.0000,
+  "maxTouchSize": 12.0000,
+  "showFingers": true,
+  "showGrid": false,
+  "showFeedback": true,
+  "feedback": {
+    "delay": 0.6000,
+    "font": "Helvetica-Bold, 48",
+    "color": "0.000000,0.589801,1.000000,0.563276"
+  },
+  "mainMenu": {
+    "shortcuts": [
+      {
+        "name": "Applications",
+        "area": "0.9082 0.8866 0.0918 0.1134",
+        "nameArea": "0.0099 0.0523",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0000 0.0045 0.9762 0.9955",
+              "nameArea": "0.4693 0.5149",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Médias sociaux",
+        "area": "0.5333 0.9200 0.3747 0.0800",
+        "nameArea": "0.1461 0.0335",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0000 0.0005 1.0000 0.9734",
+              "nameArea": "0.4812 0.5032",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Fichiers",
+        "area": "0.9285 0.5206 0.0715 0.3671",
+        "nameArea": "0.0156 0.1742",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0000 0.0000 0.9760 0.9969",
+              "nameArea": "0.4692 0.5156",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Edition",
+        "area": "0.9324 0.1167 0.0671 0.4046",
+        "nameArea": "0.0101 0.1865",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0000 0.0000 0.9823 1.0000",
+              "nameArea": "0.4723 0.5173",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Web",
+        "area": "0.0966 0.9200 0.4368 0.0800",
+        "nameArea": "0.0743 0.0237",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0000 0.0032 1.0000 0.9734",
+              "nameArea": "0.4812 0.5032",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Menu",
+        "area": "0.0000 0.8882 0.0958 0.1118",
+        "nameArea": "0.0355 0.0607",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0202 0.0032 0.9798 0.9968",
+              "nameArea": "0.4711 0.5156",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Menu",
+        "area": "0.0000 0.5096 0.0678 0.3772",
+        "nameArea": "0.0215 0.1777",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0202 0.0032 0.9798 0.9968",
+              "nameArea": "0.4711 0.5156",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Menu",
+        "area": "0.0000 0.0000 0.0958 0.1165",
+        "nameArea": "0.0355 0.0289",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0004 0.0301 0.9996 0.9699",
+              "nameArea": "0.4810 0.5014",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Menu",
+        "area": "0.9082 0.0000 0.0918 0.1165",
+        "nameArea": "0.0335 0.0289",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0000 0.0000 0.9823 1.0000",
+              "nameArea": "0.4723 0.5173",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Menu",
+        "area": "0.4959 0.0000 0.4120 0.0800",
+        "nameArea": "0.1936 0.0289",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0000 0.0335 0.9996 0.9699",
+              "nameArea": "0.4810 0.5014",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Menu",
+        "area": "0.0969 0.0000 0.3987 0.0800",
+        "nameArea": "0.1869 0.0289",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0004 0.0301 0.9996 0.9699",
+              "nameArea": "0.4810 0.5014",
+
+            }
+          ]
+        }
+      },
+      {
+        "name": "Menu",
+        "area": "0.0000 0.1165 0.0678 0.3902",
+        "nameArea": "0.0215 0.1890",
+        "submenu": {
+          "shortcuts": [
+            {
+              "name": "Desktop",
+              "action": "!openfile /Users/stephane/Desktop",
+              "area": "0.0206 0.0000 0.9794 1.0000",
+              "nameArea": "0.4709 0.5173",
+
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+
